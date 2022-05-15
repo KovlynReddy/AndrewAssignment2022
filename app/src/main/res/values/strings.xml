@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobileApplicationDeveloper700</string>
+    <string name="title_home">ContractorApp</string>
+    <string name="title_dashboard">MealRater</string>
+    <string name="Vat_Percent">5</string>
+    <string name="title_notifications">ContactApp</string>
+</resources>
