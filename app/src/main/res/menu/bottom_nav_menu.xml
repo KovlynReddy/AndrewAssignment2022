@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_MealRater"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_ContactApp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_ContractorCalculator"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_MyFinances"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_HotSpots"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_SuperMarketRater"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_ResterauntRater"
+        android:title="@string/title_notifications" />
+
+
+</menu>

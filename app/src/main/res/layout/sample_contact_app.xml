@@ -1,0 +1,91 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.mobileapplicationdeveloper700.ui.contactapp.ContactApp
+        style="@style/Widget.Theme.MobileApplicationDeveloper700.MyView"
+        android:layout_width="174dp"
+        android:layout_height="96dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="40dp"
+        app:exampleDimension="24sp"
+        app:exampleDrawable="@android:drawable/ic_menu_add"
+        app:exampleString="Hello, ContactApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtContactAppName"
+        android:layout_width="158dp"
+        android:layout_height="51dp"
+        android:text="name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtContactAppNumber"
+        android:layout_width="151dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:text="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContactAppName" />
+
+    <TextView
+        android:id="@+id/txtRelationship"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="12dp"
+        android:text="Relationship"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContactAppNumber" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="214dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toEndOf="@+id/txtContactAppName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="214dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Number"
+        app:layout_constraintStart_toEndOf="@+id/txtContactAppNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editRelationship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Relationship"
+        app:layout_constraintStart_toEndOf="@+id/txtRelationship"
+        app:layout_constraintTop_toBottomOf="@+id/editNumber" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

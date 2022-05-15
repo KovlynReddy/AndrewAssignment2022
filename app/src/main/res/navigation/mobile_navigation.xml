@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_MealRater"
+        android:name="com.example.mobileapplicationdeveloper700.ui.home.HomeFragment"
+        android:label="@string/title_mealrater"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_ContactApp"
+        android:name="com.example.mobileapplicationdeveloper700.ui.dashboard.DashboardFragment"
+        android:label="@string/title_contactapp"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_ContractorCalculator"
+        android:name="com.example.mobileapplicationdeveloper700.ui.notifications.NotificationsFragment"
+        android:label="@string/title_contactapp"
+        tools:layout="@layout/fragment_contractorcalculator" />
+    <fragment
+        android:id="@+id/navigation_MyFinances"
+        android:name="com.example.mobileapplicationdeveloper700.ui.notifications.NotificationsFragment"
+        android:label="@string/title_myfinance"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_HotSpots"
+        android:name="com.example.mobileapplicationdeveloper700.ui.notifications.NotificationsFragment"
+        android:label="@string/title_hotspots"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_SuperMarketRater"
+        android:name="com.example.mobileapplicationdeveloper700.ui.notifications.NotificationsFragment"
+        android:label="@string/title_supermarkerrater"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_ResterauntRater"
+        android:name="com.example.mobileapplicationdeveloper700.ui.notifications.NotificationsFragment"
+        android:label="@string/title_resterauntrater"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
