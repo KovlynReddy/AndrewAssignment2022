@@ -8,4 +8,5 @@
     <string name="title_resterauntrater">ResterauntRater</string>
     <string name="Vat_Percent">5</string>
     <string name="title_contactapp">ContactApp</string>
+    <string name="title_contractorcalculator">ContractorCalculator</string>
 </resources>

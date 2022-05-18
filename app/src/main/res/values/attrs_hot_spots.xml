@@ -1,8 +1,8 @@
 <resources>
     <declare-styleable name="HotSpots">
-        <attr name="exampleString" format="string" />
-        <attr name="exampleDimension" format="dimension" />
-        <attr name="exampleColor" format="color" />
-        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="HotSpotsexampleString" format="string" />
+        <attr name="HotSpotsexampleDimension" format="dimension" />
+        <attr name="HotSpotsexampleColor" format="color" />
+        <attr name="HotSpotsexampleDrawable" format="color|reference" />
     </declare-styleable>
 </resources>

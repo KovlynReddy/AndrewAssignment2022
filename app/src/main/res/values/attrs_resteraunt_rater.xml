@@ -1,8 +1,8 @@
 <resources>
     <declare-styleable name="ResterauntRater">
-        <attr name="exampleString" format="string" />
-        <attr name="exampleDimension" format="dimension" />
-        <attr name="exampleColor" format="color" />
-        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="ResterauntRaterexampleString" format="string" />
+        <attr name="ResterauntRaterexampleDimension" format="dimension" />
+        <attr name="ResterauntRaterexampleColor" format="color" />
+        <attr name="ResterauntRaterexampleDrawable" format="color|reference" />
     </declare-styleable>
 </resources>

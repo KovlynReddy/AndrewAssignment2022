@@ -1,8 +1,8 @@
 <resources>
     <declare-styleable name="ContactApp">
-        <attr name="exampleString" format="string" />
-        <attr name="exampleDimension" format="dimension" />
-        <attr name="exampleColor" format="color" />
-        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="ContactAppexampleString" format="string" />
+        <attr name="ContactAppexampleDimension" format="dimension" />
+        <attr name="ContactAppexampleColor" format="color" />
+        <attr name="ContactAppexampleDrawable" format="color|reference" />
     </declare-styleable>
 </resources>

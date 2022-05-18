@@ -3,27 +3,27 @@
 
     <item
         android:id="@+id/navigation_MealRater"
-        android:title="@string/title_home" />
+        android:title="@string/title_mealrater" />
 
     <item
         android:id="@+id/navigation_ContactApp"
-        android:title="@string/title_dashboard" />
+        android:title="@string/title_contactapp" />
 
     <item
         android:id="@+id/navigation_ContractorCalculator"
         android:title="@string/title_notifications" />
     <item
         android:id="@+id/navigation_MyFinances"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_myfinance" />
     <item
         android:id="@+id/navigation_HotSpots"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_hotspots" />
     <item
         android:id="@+id/navigation_SuperMarketRater"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_supermarkerrater" />
     <item
         android:id="@+id/navigation_ResterauntRater"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_resterauntrater" />
 
 
 </menu>

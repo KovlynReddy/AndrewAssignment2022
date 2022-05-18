@@ -1,8 +1,8 @@
 <resources>
     <declare-styleable name="mealrater">
-        <attr name="exampleString" format="string" />
-        <attr name="exampleDimension" format="dimension" />
-        <attr name="exampleColor" format="color" />
-        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="mealraterexampleString" format="string" />
+        <attr name="mealraterexampleDimension" format="dimension" />
+        <attr name="mealraterexampleColor" format="color" />
+        <attr name="mealraterexampleDrawable" format="color|reference" />
     </declare-styleable>
 </resources>
